@@ -5,15 +5,15 @@ void gst(float value);
 
 int main(){
 
-    // float value;
+    float value;
     float gold;
     gold=3663;
-    // printf("enter tha value which you hav purchased the item->");
-    // scanf("%f",&value);
+    printf("enter tha value which you hav purchased the item->");
+    scanf("%f",&value);
 
-    // printf("the initial value is->%f",value);
+    printf("the initial value is->%f",value);
 
-    // gst(value);
+    gst(value);
     gst(gold);
 
 
