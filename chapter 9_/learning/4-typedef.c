@@ -4,6 +4,7 @@ typedef struct freshmenengineeringdepartment{
     char roll[12];
     float cgpa;
 }fed;   //typedef is used for creating nicknames for datatypes so we can increase the readablity of the code 
+// "struct freshmenengineeringdepartment" will be replaced by fed
 void printstruct(fed s1){
     printf("Student Information\n");
     printf("NAME : %s\n",s1.name);
