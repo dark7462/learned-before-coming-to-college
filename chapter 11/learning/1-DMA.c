@@ -11,7 +11,7 @@ int main(){
     -It mainly have 4 function 
         malloc() - Memory Allocation - Allocates the memory according to bytes we want
         calloc() - continuos Allocation - It allocates the memory by blocks we want and size of blocks
-        realoc() - re_allocation
+        realoc() - re_allocation -It's used to reallocte the chuck of memory (increase or decrease) using the same pointer. 
         free() - frees the memory - It's used to free the memory the memory allocated by malloc and calloc
     */
 
